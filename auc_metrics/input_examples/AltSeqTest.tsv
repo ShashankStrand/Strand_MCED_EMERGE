@@ -1,0 +1,625 @@
+sampleId	type	stage	gender	GenCncrs
+Run0105_ED-42-0023-PDJ	Prostate	I	Male	0.9951
+Run0049_ED-22-0112-S	Pancreas	IV	Female	0.9951
+Run0105_ED-05-0336-BRN	Prostate	II	Male	0.9951
+Run0049_ED-17-0151-SSP	Pancreas	III	Male	0.9951
+Run0172_ED-17-0128-RSS	Colorectal	II	Male	0.9951
+Run0167_ED-05-0206-BAM	Lung	I	Female	0.9951
+Run0167_ED-05A-0051-HBJ	Lung	I	Female	0.9951
+Run0177_ED-08-0104-SM	Stomach	II	Female	0.995
+Run0172_ED-28-0618-RKP	Colorectal	I	Female	0.995
+Run0177_ED-42-0098-NMB	Stomach	I	Male	0.995
+Run0178_ED-17-0149-VSD	Pancreas	I	Male	0.995
+Run0049_ED-22-0035-JR	Pancreas	IV	Male	0.995
+Run0172_ED-05-0104-LBP	Breast	II	Female	0.995
+Run0073_ED-17-0096-JRP	Uterus	I	Female	0.995
+Run0049_ED-25-0129-DR	Esophagus	IV	Male	0.995
+Run0167_ED-05A-0036-MTM	Lung	I	Male	0.995
+Run0167_ED-22-0208-PR	Lung	III	Male	0.995
+Run0172_ED-01-0270-POJ	Colorectal	I	Male	0.995
+Run0049_ED-37-0022-NBR	Cervix	I	Female	0.995
+Run0167_ED-22-0266-RRD	Lung	III	Male	0.995
+Run0167_ED-22-0071-N	Lung	III	Male	0.995
+Run0016hcg_ED-16-0122-STK	Urinary Bladder	III	Female	0.995
+Run0049_ED-18-0011-SS	Lung	III	Male	0.995
+Run0049_ED-25-0061-BL	Esophagus	IV	Male	0.995
+Run0172_ED-05A-0077-JPA	Colorectal	II	Male	0.995
+Run0091_ED-05-0353-CVK	Prostate	IV	Male	0.995
+Run0070_ED-28-0025-GPN	Lung	IV	Male	0.995
+Run0049_ED-22-0175-M	Lung	II	Male	0.995
+Run0172_ED-08-0098-RR	Colorectal	II	Male	0.995
+Run0172_ED-28-0548-LSS	Colorectal	I	Female	0.995
+Run0049_ED-05-0259-GDK	Esophagus	I	Male	0.995
+Run0091_ED-30-0072-SJ	Uterus	III	Female	0.995
+Run0049_ED-25-0048-S	Pancreas	III	Male	0.995
+Run0167_ED-05A-0054-LAM	Lung	I	Female	0.995
+Run0082_ED-01-0213-MGP	Prostate	IV	Male	0.995
+Run0105_ED-11-0119-BS	Kidney	IV	Male	0.995
+Run0054_ED-41-0075-S	Gall Bladder	II	Female	0.995
+Run0151_ED-14-0178-DNP	Kidney	IV	Male	0.995
+Run0172_ED-05-0129-SKS	Breast	II	Female	0.995
+Run0073_ED-05-0358-MDK	Prostate	IV	Male	0.995
+Run0049_ED-28-0348-JSA	Colorectal	Benign	Male	0.995
+Run0172_ED-05A-0059-RBG	Colorectal	II	Female	0.995
+Run0049_ED-08-0061-NA	Lung	IV	Male	0.995
+Run0093_ED-05-0081-AMG	Kidney	III	Male	0.995
+Run0167_ED-05A-0052-RBP	Lung	I	Male	0.995
+Run0054_ED-15-0101-SHA	Pancreas	I	Female	0.995
+Run0049_ED-22-0150-HB	Gall Bladder	IV	Female	0.995
+Run0049_ED-22-0047-SDA	Cervix	IV	Female	0.995
+Run0172_ED-01-0291-AAM	Colorectal	I	Male	0.9949
+Run0167_ED-01-0272-CRH	Lung	II	Male	0.9949
+Run0049_ED-22-0070-MK	Pancreas	IV	Female	0.9949
+Run0172_ED-05-0247-NBD	Colorectal	II	Male	0.9949
+Run0049_ED-05-0216-SSN	Lung	IV	Female	0.9949
+Run0089_ED-05-0209-SAK	Kidney	II	Female	0.9949
+Run0105_ED-15-0095-SHI	Prostate	I	Male	0.9949
+Run0172_ED-16-0120-NBB	Pancreas	II	Male	0.9949
+Run0016hcg_ED-15-0023-JAY	Urinary Bladder	III	Female	0.9949
+Run0049_ED-28-0669-SWJ	Lung	IV	Male	0.9949
+Run0054_ED-15-0108-GAL	Gall Bladder	II	Female	0.9949
+Run0049_ED-01-0230-KYP	Lung	III	Male	0.9949
+Run0105_ED-01-0206-VYP	Prostate	IV	Male	0.9949
+Run0177_ED-15-0131-ABI	Stomach	I	Male	0.9949
+Run0049_ED-28-0464-VRG	Esophagus	Benign	Male	0.9949
+Run0167_ED-44-0214-CL	Lung	II	Male	0.9949
+Run0049_ED-22-0157-MD	Gall Bladder	IV	Female	0.9949
+Run0167_ED-28-0741-GRK	Prostate	II	Male	0.9949
+Run0167_ED-14-0304-SDI	Urinary Bladder	I	Male	0.9949
+Run0091_ED-22-0085-BR	Kidney	IV	Male	0.9949
+Run0049_ED-26-0007-RB	Lung	II	Female	0.9949
+Run0172_ED-15-0056-YAR	Colorectal	I	Male	0.9949
+Run0049_ED-22-0017-BR	Lung	III	Male	0.9949
+Run0049_ED-22-0144-KK	Gall Bladder	IV	Female	0.9949
+Run0082_ED-36-0035-VSI	Uterus	IV	Female	0.9949
+Run0062_ED-26-0008-AB	Gall Bladder	II	Female	0.9949
+Run0138_ED-01-0236-PPS	Urinary Bladder	IV	Male	0.9948
+Run0049_ED-25-0132-KD	Gall Bladder	III	Female	0.9948
+Run0177_ED-05-0388-SPN	Stomach	II	Male	0.9948
+Run0049_ED-22-0065-M	Cervix	IV	Female	0.9948
+Run0167_ED-05A-0041-KSS	Kidney	I	Female	0.9948
+Run0172_ED-05-0092-SSG	Breast	II	Female	0.9948
+Run0049_ED-28-0311-SDP	Pancreas	III	Male	0.9948
+Run0172_ED-05A-0040-LBS	Colorectal	II	Female	0.9948
+Run0138_ED-25-0205-RK	Prostate	II	Male	0.9948
+Run0172_ED-30-0101-DKL	Colorectal	II	Male	0.9948
+Run0049_ED-22-0023-NJ	Pancreas	III	Female	0.9948
+Run0049_ED-28-0536-SPP	Lung	Benign	Female	0.9948
+Run0167_ED-14-0307-GRP	Lung	II	Male	0.9948
+Run0172_ED-30-0068-SBS	Colorectal	II	Male	0.9948
+Run0172_ED-28-0502-KSJ	Colorectal	I	Male	0.9948
+Run0172_ED-05-0088-SVG	Breast	II	Female	0.9948
+Run0167_ED-28-0810-SDP	Prostate	I	Male	0.9948
+Run0016hcg_ED-28-0088-JSJ	Kidney	II	Female	0.9948
+Run0167_ED-26-0025-SA	Lung	II	Male	0.9948
+Run0172_ED-28-0540-PCG	Colorectal	I	Male	0.9948
+Run0082_ED-17-0244-BSM	Prostate	III	Male	0.9948
+Run0016hcg_ED-30-0105-MPB	Kidney	III	Female	0.9948
+Run0070_ED-42-0019-SBK	Uterus	Benign	Female	0.9948
+Run0105_ED-05-0184-DKD	Kidney	II	Male	0.9947
+Run0167_ED-22-0278-SR	Lung	III	Male	0.9947
+Run0070_ED-08-0052-RK	Uterus	IV	Female	0.9947
+Run0091_ED-36-0042-VSA	Uterus	IV	Female	0.9947
+Run0167_ED-28-0714-MRK	Prostate	II	Male	0.9947
+Run0105_ED-15-0035-JEE	Prostate	II	Male	0.9947
+Run0172_ED-29-0060-BBT	Colorectal	II	Male	0.9947
+Run0146_ED-43-0109-BLG	Prostate	III	Male	0.9947
+Run0049_ED-28-0483-SVP	Esophagus	Benign	Female	0.9947
+Run0167_ED-22-0179-JD	Colorectal	III	Female	0.9947
+Run0070_ED-17-0123-SNM	Prostate	IV	Male	0.9947
+Run0178_ED-41-0097-M	Gall Bladder	II	Male	0.9946
+Run0091_ED-05-0273-SGS	Kidney	III	Male	0.9946
+Run0049_ED-28-0336-ARP	Gall Bladder	III	Male	0.9946
+Run0049_ED-22-0159-MD	Gall Bladder	IV	Female	0.9946
+Run0085_ED-11-0095-KS	Kidney	I	Female	0.9946
+Run0049_ED-28-0018-MGP	Pancreas	IV	Female	0.9946
+Run0049_ED-28-0308-SVA	Lung	Benign	Male	0.9946
+Run0167_ED-17-0110-MMP	Lung	I	Male	0.9946
+Run0167_ED-05A-0037-PTB	Kidney	I	Male	0.9946
+Run0172_ED-05-0286-SMS	Colorectal	I	Female	0.9946
+Run0167_ED-17-0112-SJS	Lung	II	Female	0.9946
+Run0172_ED-15-0039-ADI	Colorectal	I	Male	0.9946
+Run0167_ED-31-0208-HJ	Lung	II	Male	0.9946
+Run0105_ED-28-0448-SLW	Prostate	Benign	Male	0.9946
+Run0073_ED-28-0609-SST	Uterus	Benign	Female	0.9946
+Run0172_ED-05-0307-PDK	Colorectal	II	Male	0.9946
+Run0049_ED-22-0171-M	Gall Bladder	IV	Female	0.9945
+Run0049_ED-05-0142-AHM	Esophagus	II	Male	0.9945
+Run0100_ED-05-0160-ARN	Kidney	III	Female	0.9945
+Run0172_ED-30-0118-MMM	Colorectal	I	Male	0.9945
+Run0082_ED-16-0116-BKP	Prostate	II	Male	0.9945
+Run0167_ED-05-0378-AKS	Prostate	II	Male	0.9945
+Run0167_ED-05A-0033-RGK	Kidney	I	Male	0.9945
+Run0049_ED-08-0064-AR	Lung	IV	Male	0.9945
+Run0070_ED-07-0005-CP	Uterus	III	Female	0.9945
+Run0172_ED-28-0474-UKG	Colorectal	I	Male	0.9945
+Run0049_ED-22-0083-SKM	Cervix	IV	Female	0.9945
+Run0172_ED-05-0101-LBP	Breast	II	Female	0.9945
+Run0073_ED-25-0215-S	Uterus	II	Female	0.9945
+Run0049_ED-22-0137-CK	Gall Bladder	IV	Female	0.9945
+Run0167_ED-41-0009-MH	Lung	II	Male	0.9945
+Run0172_ED-05-0116-SRG	Breast	II	Female	0.9944
+Run0091_ED-01-0157-NMP	Kidney	IV	Male	0.9944
+Run0085_ED-39-0006-RMV	Urinary Bladder	I	Female	0.9944
+Run0146_ED-43-0162-KNK	Prostate	III	Male	0.9944
+Run0172_ED-05-0295-YPS	Colorectal	I	Male	0.9944
+Run0049_ED-28-0033-SAK	Esophagus	Benign	Male	0.9943
+Run0167_ED-28-0805-PBS	Prostate	I	Male	0.9943
+Run0085_ED-22-0252-DS	Urinary Bladder	IV	Male	0.9943
+Run0049_ED-25-0046-SR	Breast	Benign	Female	0.9943
+Run0049_ED-28-0560-RPC	Liver	Benign	Male	0.9943
+Run0167_ED-38-0048-RRP	Lung	I	Female	0.9943
+Run0049_ED-25-0118-I	Gall Bladder	III	Male	0.9943
+Run0049_ED-22-0287-MLP	Pancreas	IV	Male	0.9943
+Run0151_ED-39-0002-KIR	Prostate	I	Male	0.9943
+Run0172_ED-05-0271-KGG	Colorectal	I	Male	0.9942
+Run0138_ED-16-0107-MGK	Kidney	III	Male	0.9942
+Run0178_ED-14-0311-DHS	Pancreas	I	Female	0.9942
+Run0049_ED-17-0229-KNK	Pancreas	II	Male	0.9942
+Run0082_ED-05-0059-PPM	Uterus	I	Female	0.9941
+Run0167_ED-05-0255-JNC	Lung	II	Male	0.9941
+Run0105_ED-30-0041-BDS	Prostate	I	Male	0.9941
+Run0172_ED-01-0275-MBH	Colorectal	I	Male	0.9941
+Run0151_ED-22-0226-BR	Urinary Bladder	IV	Male	0.9941
+Run0082_ED-30-0002-PHL	Uterus	II	Female	0.9941
+Run0177_ED-15-0156-SHI	Stomach	I	Male	0.9941
+Run0073_ED-31-0043-SBH	Prostate	II	Male	0.994
+Run0091_ED-20-0061-KK	Kidney	IV	Female	0.994
+Run0151_ED-28-0551-KCP	Uterus	I	Female	0.994
+Run0185_ED-01-0229-DSK	Colorectal	I	Male	0.994
+Run0049_ED-35-0003-TIM	Breast	Benign	Female	0.994
+Run0172_ED-05-0207-SJW	Colorectal	I	Female	0.9939
+Run0049_ED-28-0263-RRS	Colorectal	Benign	Female	0.9939
+Run0105_ED-05-0223-APY	Urinary Bladder	IV	Male	0.9939
+Run0138_ED-08-0012-AR	Prostate	IV	Male	0.9939
+Run0146_ED-28-0761-SVS	Prostate	I	Male	0.9939
+Run0049_ED-22-0079-KRK	Pancreas	IV	Male	0.9938
+Run0178_ED-28-0777-TDK	Gall Bladder	I	Female	0.9938
+Run0066_ED-11-0022-MSA	Uterus	I	Female	0.9938
+Run0049_ED-25-0084-JD	Gall Bladder	III	Female	0.9938
+Run0172_ED-05-0102-SIA	Breast	II	Female	0.9937
+Run0049_ED-31-0082-GHB	Lung	I	Female	0.9937
+Run0167_ED-42-0107-ASR	Urinary Bladder	I	Male	0.9937
+Run0178_ED-05-0328-SAP	Pancreas	II	Male	0.9936
+Run0049_ED-05-0267-PGJ	Esophagus	I	Male	0.9936
+Run0146_ED-28-0775-HVD	Prostate	I	Male	0.9935
+Run0082_ED-20-0016-MM	Uterus	IV	Female	0.9935
+Run0177_ED-05-0191-VIG	Stomach	II	Male	0.9935
+Run0172_ED-17-0179-SDR	Colorectal	I	Female	0.9934
+Run0167_ED-08-0077-AS	Lung	II	Male	0.9934
+Run0172_ED-30-0131-VSU	Colorectal	II	Female	0.9934
+Run0138_ED-28-0658-NAP	Kidney	Benign	Female	0.9933
+Run0057_ED-05-0335-BAP	Gall Bladder	I	Male	0.9932
+Run0172_ED-31-0015-AZ	Colorectal	II	Male	0.9932
+Run0049_ED-25-0216-I	Gall Bladder	III	Female	0.9932
+Run0138_ED-20-0050-PD	Kidney	III	Male	0.9931
+Run0070_ED-28-0296-JRK	Uterus	IV	Female	0.9931
+Run0049_ED-31-0024-VG	Pancreas	III	Male	0.9931
+Run0172_ED-05-0077-SSS	Breast	II	Female	0.9931
+Run0167_ED-28-0095-PBP	Lung	II	Male	0.993
+Run0070_ED-20-0078-SM	Uterus	III	Female	0.993
+Run0049_ED-01-0034-RNP	Breast	Benign	Female	0.993
+Run0049_ED-31-0027-SNR	Lung	I	Male	0.993
+Run0178_ED-41-0065-UP	Gall Bladder	I	Female	0.993
+Run0167_ED-26-0034-JG	Lung	II	Male	0.993
+Run0057_ED-27-562C-CDR	control	control	Female	0.9929
+Run0178_ED-05A-0074-DYU	Pancreas	I	Female	0.9927
+Run0070_ED-20-0018-SVNRV	Uterus	IV	Female	0.9925
+Run0049_ED-28-0258-MBB	Gall Bladder	III	Female	0.9925
+Run0172_ED-09-0052-SB	Colorectal	II	Male	0.9925
+Run0066_ED-03-0028-PMS	Uterus	II	Female	0.9925
+Run0049_ED-44-0080-DD	Lung	I	Female	0.9925
+Run0172_ED-05-0110-MRK	Breast	II	Female	0.9925
+Run0112_ED-27-081C-VKV	control	control	Female	0.9923
+Run0105_ED-28-0589-OS	Kidney	I	Female	0.9923
+Run0073_ED-30-0032-LSD	Prostate	III	Male	0.9922
+Run0138_ED-28-0067-GAP	Kidney	III	Male	0.9922
+Run0049_ED-25-0152-S	Ovary	Benign	Female	0.9922
+Run0049_ED-09-0012-MG	Lung	IV	Male	0.992
+Run0172_ED-05-0071-SMI	Breast	II	Female	0.992
+Run0167_ED-26-0012-BM	Lung	II	Female	0.9918
+Run0172_ED-05A-0030-GDS	Colorectal	I	Male	0.9918
+Run0177_ED-08-0076-CJ	Stomach	II	Male	0.9918
+Run0172_ED-31-0065-EFS	Colorectal	II	Male	0.9918
+Run0049_ED-28-0410-VMT	Stomach	Benign	Male	0.9917
+Run0089_ED-20-0083-JRK	Kidney	IV	Female	0.9917
+Run0172_ED-38-0022-GRB	Colorectal	II	Male	0.9917
+Run0082_ED-28-0214-NRV	Uterus	III	Female	0.9916
+Run0073_ED-17-0015-SBC	Prostate	III	Male	0.9916
+Run0177_ED-42-0036-KSP	Stomach	I	Female	0.9914
+Run0172_ED-01-0287-KAD	Colorectal	I	Female	0.9914
+Run0167_ED-05-0132-BDM	Colorectal	III	Male	0.9914
+Run0049_ED-26-0022-UM	Lung	II	Female	0.9913
+Run0172_ED-29-0058-KDN	Colorectal	I	Female	0.9912
+Run0172_ED-01-0202-YHJ	Colorectal	I	Male	0.9912
+Run0066_ED-05-0169-SKS	Prostate	IV	Male	0.9912
+Run0049_ED-05-0045-SAC	Colorectal	Benign	Male	0.991
+Run0172_ED-28-0492-PVN	Colorectal	I	Male	0.991
+Run0049_ED-42-0028-SGM	Cervix	Benign	Female	0.9909
+Run0105_ED-30-0010-RM	Urinary Bladder	II	Male	0.9909
+Run0151_ED-42-0040-BYS	Prostate	Benign	Male	0.9909
+Run0085_ED-14-0030-SDD	Urinary Bladder	III	Male	0.9909
+Run0177_ED-15-0152-GID	Stomach	I	Male	0.9909
+Run0082_ED-41-0028-M	Uterus	I	Female	0.9908
+Run0177_ED-17-0312-MJM	Pancreas	II	Female	0.9907
+Run0082_ED-42-0008-ADP	Uterus	III	Female	0.9907
+Run0105_ED-28-0630-ANG	Urinary Bladder	II	Female	0.9907
+Run0049_ED-28-0422-RRS	Colorectal	Benign	Male	0.9904
+Run0062_ED-15-0135-LAL	Gall Bladder	II	Male	0.9903
+Run0177_ED-05-0181-RJK	Stomach	II	Female	0.9903
+Run0049_ED-28-0364-SRH	Ovary	Benign	Female	0.9903
+Run0057_ED-27-549C-SBM	control	control	Female	0.99
+Run0167_ED-28-0065-FBK	Urinary Bladder	I	Male	0.9899
+Run0172_ED-05A-0068-RGC	Colorectal	II	Male	0.9899
+Run0085_ED-07-0013-PR	Urinary Bladder	III	Male	0.9899
+Run0049_ED-28-0287-JVB	Esophagus	Benign	Female	0.9899
+Run0091_ED-14-0035-BSP	Kidney	II	Female	0.9897
+Run0082_ED-30-0126-SWA	Prostate	I	Male	0.9895
+Run0100_ED-28-0358-PBD	Kidney	III	Male	0.9895
+Run0049_ED-28-0381-SSS	Ovary	Benign	Female	0.9895
+Run0049_ED-28-0602-BDN	Colorectal	Benign	Male	0.9894
+Run0172_ED-25-0156-D	Colorectal	II	Male	0.9893
+Run0066_ED-20-0021-VDL	Uterus	IV	Female	0.9893
+Run0167_ED-25-0280-AA	Lung	II	Male	0.9892
+Run0049_ED-25-0165-MD	Gall Bladder	Benign	Female	0.9892
+Run0177_ED-28-0718-PPV	Stomach	I	Female	0.9891
+Run0049_ED-22-0177-KP	Gall Bladder	III	Female	0.989
+Run0054_ED-28-0694-KMS	Liver	I	Male	0.9886
+Run0049_ED-28-0240-PSP	Lung	Benign	Male	0.9884
+Run0049_ED-01-0117-FMB	Ovary	Benign	Female	0.9884
+Run0167_ED-15-0134-VIS	Kidney	II	Male	0.9883
+Run0105_ED-15-0072-REK	Uterus	I	Female	0.9883
+Run0091_ED-30-0034-JGB	Uterus	II	Female	0.9881
+Run0178_ED-28-0814-STS	Gall Bladder	I	Male	0.988
+Run0151_ED-07-0007-SK	Kidney	I	Male	0.9878
+Run0054_ED-14-0143-SRC	Gall Bladder	I	Male	0.9876
+Run0070_ED-15-0026-HAN	Prostate	IV	Male	0.9874
+Run0049_ED-28-0640-HNK	Gall Bladder	Benign	Male	0.9872
+Run0105_ED-28-0155-SNM	Kidney	II	Female	0.9869
+Run0049_ED-28-0323-BBG	Pancreas	III	Male	0.9868
+Run0105_ED-42-0010-BPD	Prostate	Benign	Male	0.9867
+Run0177_ED-01-0268-BMN	Stomach	II	Male	0.9862
+Run0105_ED-35-028C-HOL	control	control	Male	0.9857
+Run0049_ED-22-0254-M	Gall Bladder	Benign	Female	0.9856
+Run0070_ED-30-0082-DRP	Prostate	II	Male	0.9856
+Run0167_ED-17-0094-SAC	Lung	I	Male	0.9852
+Run0105_ED-11-0087-JR	Kidney	Benign	Female	0.9852
+Run0178_ED-22-0431-B	Gall Bladder	II	Female	0.9852
+Run0089_ED-14-0047-SSP	Kidney	I	Female	0.9849
+Run0105_ED-11-0092-DVA	Kidney	I	Female	0.9848
+Run0057_ED-27-547C-ASR	control	control	Female	0.9847
+Run0082_ED-25-0202-P	Prostate	II	Male	0.9844
+Run0172_ED-05-0301-SRS	Breast	II	Male	0.9843
+Run0049_ED-06-0022-AR	Breast	Benign	Female	0.9842
+Run0057_ED-27-550C-SAJ	control	control	Female	0.9836
+Run0049_ED-28-0512-VDK	Esophagus	Benign	Male	0.9835
+Run0070_ED-39-0003-MHC	Prostate	I	Male	0.9832
+Run0082_ED-42-0046-CNK	Prostate	I	Male	0.983
+Run0082_ED-01-0226-PBD	Uterus	Benign	Female	0.9824
+Run0049_ED-14-0144-SPB	Ovary	Benign	Female	0.9824
+Run0057_ED-27-566C-KPH	control	control	Female	0.9823
+Run0057_ED-27-555C-AVK	control	control	Female	0.982
+Run0070_ED-22-0327-CDK	Uterus	III	Female	0.9818
+Run0177_ED-28-0730-HDS	Stomach	I	Male	0.9818
+Run0151_ED-28-0177-RKS	Kidney	III	Male	0.9816
+Run0049_ED-28-0592-HBS	Lung	Benign	Male	0.9812
+Run0105_ED-05-0198-BBS	Urinary Bladder	III	Male	0.9808
+Run0049_ED-05-0125-GNN	Lung	IV	Male	0.9802
+Run0082_ED-28-0371-KGB	Prostate	III	Male	0.9799
+Run0107_ED-16-0045-GMH	Urinary Bladder	II	Female	0.9798
+Run0049_ED-28-0556-SSB	Liver	Benign	Male	0.9795
+Run0172_ED-28-0488-SKV	Colorectal	I	Female	0.9793
+Run0016hcg_ED-01-0118-SBG	Kidney	II	Female	0.9792
+Run0105_ED-28-0303-SSS	Urinary Bladder	Benign	Male	0.979
+Run0057_ED-27-162C-KKK	control	control	Male	0.9789
+Run0066_ED-13-0003-AB	Prostate	III	Male	0.9788
+Run0172_ED-01-0293-KPS	Colorectal	II	Male	0.9782
+Run0178_ED-17-0302-RAP	Pancreas	I	Female	0.9773
+Run0151_ED-22-0101-VR	Kidney	IV	Male	0.9766
+Run0057_ED-27-574C-RRB	control	control	Female	0.9765
+Run0049_ED-37-0011-MDV	Cervix	I	Female	0.9754
+Run0172_ED-03-0003-ABB	Breast	II	Female	0.9753
+Run0172_ED-05-0332-SGD	Colorectal	II	Female	0.975
+Run0109_ED-27-325C-JKG	control	control	Female	0.9749
+Run0100_ED-05-0320-SPS	Kidney	III	Male	0.974
+Run0054_ED-35-017C-VAM	control	control	Female	0.9727
+Run0108_ED-26-126C-JK	control	control	Female	0.9719
+Run0049_ED-29-0056-RAT	Cervix	I	Female	0.9718
+Run0167_ED-17-0286-RNL	Prostate	III	Male	0.9717
+Run0049_ED-14-0016-AAS	Breast	Benign	Female	0.9713
+Run0178_ED-17-0247-VVN	Pancreas	I	Male	0.9707
+Run0091_ED-17-0022-HRN	Uterus	I	Female	0.9706
+Run0049_ED-28-0262-ADS	Breast	Benign	Female	0.9706
+Run0105_ED-15-0058-MUA	Urinary Bladder	II	Male	0.9702
+Run0172_ED-28-0292-VEA	Colorectal	II	Female	0.9697
+Run0057_ED-27-572C-RHM	control	control	Female	0.9695
+Run0066_ED-20-0067-NN	Uterus	III	Female	0.9694
+Run0054_ED-35-026C-DOM	control	control	Female	0.9693
+Run0085_ED-28-0151-JDN	Urinary Bladder	I	Male	0.9681
+Run0138_ED-14-0158-PNP	Kidney	III	Male	0.9665
+Run0151_ED-20-0080-TS	Uterus	II	Female	0.9661
+Run0070_ED-28-0421-UPB	Uterus	I	Female	0.9659
+Run0054_ED-35-024C-MUT	control	control	Female	0.9656
+Run0049_ED-08-0072-ML	Cervix	Benign	Female	0.9656
+Run0112_ED-27-274C-SNP	control	control	Female	0.9654
+Run0057_ED-27-552C-ADN	control	control	Female	0.965
+Run0073_ED-08-0039-MQ	Uterus	I	Female	0.9642
+Run0066_ED-28-0697-NTB	Uterus	II	Female	0.9641
+Run0057_ED-26-200C-KKD	control	control	Male	0.9638
+Run0112_ED-27-398C-TSL	control	control	Male	0.9632
+Run0105_ED-31-0012-BB	Urinary Bladder	II	Male	0.9628
+Run0172_ED-01-0127-NSD	Breast	II	Female	0.9625
+Run0057_ED-27-637C-SGP	control	control	Male	0.9622
+Run0073_ED-28-0649-DNS	Prostate	Benign	Male	0.9621
+Run0105_ED-14-0162-SPD	Uterus	Benign	Female	0.9616
+Run0167_ED-11-0138-SK	Urinary Bladder	I	Male	0.9615
+Run0104_ED-35-035C-MUT	control	control	Female	0.9615
+Run0049_ED-28-0377-DVG	Liver	Benign	Male	0.9614
+Run0049_ED-08-0053-JS	Ovary	Benign	Female	0.9613
+Run0107_ED-05-0128-GDM	Urinary Bladder	III	Male	0.9607
+Run0105_ED-15-0099-RAJ	Urinary Bladder	II	Male	0.9597
+Run0073_ED-17-0208-SNK	Uterus	I	Female	0.9596
+Run0172_ED-31-0005-SM	Colorectal	II	Male	0.9596
+Run0105_ED-05-0204-SGK	Urinary Bladder	III	Male	0.9596
+Run0105_ED-42-0012-MBM	Prostate	Benign	Male	0.9584
+Run0049_ED-22-0160-DCG	Pancreas	III	Male	0.9575
+Run0062_ED-15-0128-LAL	Gall Bladder	II	Male	0.9566
+Run0172_ED-05-0069-ASK	Breast	II	Female	0.9548
+Run0070_ED-01-0238-IGH	Uterus	III	Female	0.9544
+Run0016hcg_ED-28-0257-JPK	Kidney	II	Female	0.954
+Run0089_ED-28-0116-STI	Kidney	I	Female	0.9538
+Run0105_ED-28-0615-SHA	Kidney	II	Male	0.9535
+Run0082_ED-01-0150-KBA	Prostate	IV	Male	0.9533
+Run0178_ED-42-0097-HYH	Pancreas	I	Male	0.9532
+Run0167_ED-43-0184-VBY	Prostate	III	Male	0.9515
+Run0049_ED-28-0285-KRP	Cervix	Benign	Female	0.9512
+Run0049_ED-01-0050-ANK	Breast	Benign	Female	0.9486
+Run0172_ED-01-0149-HVP	Breast	II	Female	0.9485
+Run0172_ED-05-0274-KMG	Breast	II	Female	0.9483
+Run0062_ED-28-0709-NSP	Liver	I	Male	0.9476
+Run0049_ED-28-0383-PMJ	Cervix	Benign	Female	0.9471
+Run0049_ED-28-0403-KDS	Pancreas	Benign	Male	0.9467
+Run0066_ED-20-0076-MP	Uterus	III	Female	0.9463
+Run0049_ED-28-0378-APJ	Cervix	Benign	Female	0.9441
+Run0062_ED-05-0347-VNK	Pancreas	I	Female	0.944
+Run0167_ED-05A-0045-UVP	Lung	I	Female	0.9434
+Run0073_ED-15-0117-BAS	Uterus	II	Female	0.9432
+Run0057_ED-27-298C-SBG	control	control	Female	0.942
+Run0049_ED-28-0437-SSJ	Liver	Benign	Male	0.9416
+Run0057_ED-27-504C-SSG	control	control	Female	0.9412
+Run0049_ED-28-0459-PRM	Pancreas	Benign	Male	0.9406
+Run0049_ED-28-0180-MSR	Breast	Benign	Female	0.9384
+Run0049_ED-26-183C-DB	control	control	Male	0.9354
+Run0054_ED-35-008C-LAK	control	control	Female	0.935
+Run0049_ED-14-0028-SAS	Breast	Benign	Female	0.935
+Run0108_ED-26-120C-KM	control	control	Female	0.9348
+Run0073_ED-01-0180-MMS	Uterus	II	Female	0.9335
+Run0049_ED-01-0039-MYK	Breast	Benign	Female	0.9334
+Run0167_ED-05-0164-RSM	Colorectal	I	Male	0.9321
+Run0105_ED-14-0206-MMP	Urinary Bladder	III	Male	0.9277
+Run0049_ED-14-0195-DNS	Cervix	Benign	Female	0.9218
+Run0109_ED-26-261C-GD	control	control	Female	0.9205
+Run0057_ED-27-296C-SBB	control	control	Female	0.9149
+Run0070_ED-28-0517-LVG	Prostate	II	Male	0.9134
+Run0172_ED-01-0134-RBD	Breast	II	Female	0.9127
+Run0105_ED-42-0004-MDS	Urinary Bladder	I	Male	0.9117
+Run0054_ED-35-016C-MUN	control	control	Female	0.9107
+Run0073_ED-14-0171-SSM	Uterus	II	Female	0.9098
+Run0177_ED-15-0137-RUK	Stomach	I	Female	0.9069
+Run0178_ED-01-0260-KYP	Pancreas	II	Male	0.9041
+Run0049_ED-01-0111-DYT	Breast	II	Female	0.9023
+Run0177_ED-15-0124-HEG	Stomach	I	Male	0.9011
+Run0109_ED-27-357C-RMAS	control	control	Female	0.8988
+Run0054_ED-35-007C-RAM	control	control	Female	0.8969
+Run0049_ED-26-185C-VG	control	control	Male	0.8936
+Run0112_ED-27-068C-SGG	control	control	Female	0.8927
+Run0049_ED-26-192C-GD	control	control	Female	0.8909
+Run0177_ED-01-0289-DSG	Stomach	I	Male	0.8859
+Run0105_ED-28-0496-GRC	Kidney	I	Male	0.8787
+Run0049_ED-28-0124-NAD	Esophagus	Benign	Male	0.8759
+Run0172_ED-05-0284-SMS	Colorectal	I	Male	0.8752
+Run0178_ED-28-0773-SUS	Gall Bladder	II	Male	0.8683
+Run0108_ED-27-339C-HKH	control	control	Female	0.8666
+Run0108_ED-27-344C-ASJ	control	control	Female	0.8634
+Run0138_ED-25-0125-S	Kidney	III	Female	0.8609
+Run0172_ED-05-0137-SRP	Breast	II	Female	0.8601
+Run0054_ED-35-022C-NAG	control	control	Female	0.8595
+Run0167_ED-05A-0073-MMB	Lung	I	Male	0.8558
+Run0112_ED-27-060C-JCK	control	control	Female	0.8497
+Run0054_ED-35-011C-BAS	control	control	Female	0.8478
+Run0172_ED-05-0118-SAK	Breast	II	Female	0.8466
+Run0185_ED-35-047C-SAJ	control	control	Female	0.846
+Run0167_ED-25-0122-RK	Colorectal	II	Female	0.8383
+Run0185_ED-35-029C-NAY	control	control	Female	0.8311
+Run0049_ED-28-0466-RGF	Pancreas	IV	Female	0.8236
+Run0167_ED-14-0034-VHM	Lung	II	Male	0.8225
+Run0109_ED-26-128C-PM	control	control	Female	0.8201
+Run0049_ED-28-0210-SDK	Cervix	Benign	Female	0.8133
+Run0085_ED-29-0043-RSR	Urinary Bladder	IV	Male	0.8048
+Run0054_ED-35-023C-KAL	control	control	Female	0.8024
+Run0109_ED-26-256C-PG	control	control	Female	0.7926
+Run0151_ED-27-629C-VLK	control	control	Male	0.7903
+Run0057_ED-27-575C-PSP	control	control	Female	0.7886
+Run0062_ED-25-0268-A	Pancreas	II	Female	0.7866
+Run0073_ED-42-0055-BSS	Prostate	Benign	Male	0.7828
+Run0073_ED-08-0090-SI	Uterus	I	Female	0.7789
+Run0109_ED-35-038C-JAM	control	control	Female	0.7711
+Run0104_ED-35-048C-MUP	control	control	Female	0.7702
+Run0167_ED-14-0132-MDP	Prostate	III	Male	0.7702
+Run0049_ED-28-0436-DSJ	Cervix	Benign	Female	0.7692
+Run0111_ED-35-077C-SAV	control	control	Female	0.768
+Run0167_ED-42-0089-CKJ	Urinary Bladder	I	Male	0.7637
+Run0185_ED-35-069C-GOW	control	control	Female	0.7592
+Run0091_ED-17-0045-PRS	Prostate	III	Male	0.7587
+Run0057_ED-27-638C-TKT	control	control	Male	0.7517
+Run0172_ED-01-0032-YVG	Breast	II	Female	0.7374
+Run0049_ED-26-193C-SD	control	control	Male	0.7346
+Run0049_ED-28-0391-RSK	Lung	Benign	Male	0.7313
+Run0049_ED-26-196C-BD	control	control	Female	0.7219
+Run0104_ED-35-030C-KEP	control	control	Female	0.7203
+Run0057_ED-27-636C-VRJ	control	control	Male	0.7195
+Run0172_ED-05-0017-ANJ	Breast	II	Female	0.7036
+Run0057_ED-27-644C-BYS	control	control	Male	0.6961
+Run0112_ED-35-049C-HUM	control	control	Female	0.6916
+Run0103_ED-35-015C-DOD	control	control	Male	0.6896
+Run0057_ED-27-640C-RHJ	control	control	Male	0.6874
+Run0049_ED-25-0126-AD	Gall Bladder	III	Female	0.6797
+Run0091_ED-28-0031-PSK	Uterus	II	Female	0.6781
+Run0057_ED-27-560C-KBK	control	control	Female	0.6753
+Run0178_ED-28-0755-SLP	Gall Bladder	II	Female	0.666
+Run0107_ED-42-0063-LDJ	Urinary Bladder	I	Female	0.654
+Run0105_ED-25-0060-MA	Urinary Bladder	II	Male	0.6469
+Run0167_ED-05A-0050-NGP	Prostate	I	Male	0.6138
+Run0105_ED-08-0050-MR	Urinary Bladder	II	Female	0.6022
+Run0070_ED-28-0606-AVD	Prostate	II	Male	0.5973
+Run0107_ED-15-0096-SH	Urinary Bladder	III	Female	0.5949
+Run0178_ED-41-0093-F	Gall Bladder	II	Female	0.5947
+Run0111_ED-35-070C-SHA	control	control	Female	0.59
+Run0105_ED-28-0049-RDW	Urinary Bladder	II	Male	0.5892
+Run0111_ED-35-071C-CKT	control	control	Female	0.5889
+Run0109_ED-26-260C-PM	control	control	Female	0.5885
+Run0151_ED-27-635C-MRP	control	control	Male	0.5863
+Run0103_ED-35-068C-SYD	control	control	Male	0.5859
+Run0178_ED-14-0213-NHM	Pancreas	II	Male	0.585
+Run0160_ED-01-0143-MJP	Colorectal	III	Female	0.5829
+Run0049_ED-28-0304-BGB	Esophagus	Benign	Male	0.5778
+Run0151_ED-27-632C-SDS	control	control	Male	0.5742
+Run0112_ED-27-402C-ACS	control	control	Male	0.57
+Run0054_ED-35-010C-SHA	control	control	Female	0.5652
+Run0104_ED-35-056C-RMM	control	control	Male	0.5644
+Run0049_ED-29-0033-VMT	Pancreas	III	Male	0.5627
+Run0049_ED-26-189C-SR	control	control	Male	0.5568
+Run0049_ED-26-182C-KS	control	control	Male	0.5523
+Run0108_ED-27-340C-AZH	control	control	Female	0.551
+Run0112_ED-35-036C-NAR	control	control	Female	0.5414
+Run0091_ED-39-0010-GLP	Prostate	II	Male	0.5374
+Run0103_ED-35-060C-MSH	control	control	Male	0.5353
+Run0105_ED-38-0011-MGC	Prostate	I	Male	0.5352
+Run0054_ED-35-006C-LEB	control	control	Female	0.5331
+Run0112_ED-27-065C-JBB	control	control	Female	0.5311
+Run0185_ED-35-045C-LAM	control	control	Female	0.5298
+Run0104_ED-35-031C-HEB	control	control	Female	0.5279
+Run0108_ED-27-342C-DLH	control	control	Female	0.4973
+Run0177_ED-05-0283-KRP	Stomach	II	Male	0.49
+Run0138_ED-28-0759-MRS	Kidney	II	Female	0.4898
+Run0107_ED-42-0051-BDS	Prostate	Benign	Male	0.489
+Run0103_ED-35-058C-MAJ	control	control	Male	0.4846
+Run0178_ED-05-0374-BSS	Pancreas	II	Male	0.4839
+Run0167_ED-15-0146-YAM	Kidney	II	Female	0.4816
+Run0115_ED-27-284C-PDD	control	control	Male	0.4806
+Run0054_ED-35-021C-MUY	control	control	Female	0.479
+Run0167_ED-37-0004-JBD	Urinary Bladder	I	Female	0.4716
+Run0057_ED-27-309C-SJP	control	control	Female	0.4703
+Run0177_ED-05-0293-SMB	Stomach	II	Male	0.4633
+Run0109_ED-27-322C-STR	control	control	Female	0.463
+Run0054_ED-35-027C-NAM	control	control	Female	0.4628
+Run0105_ED-08-0096-RT	Urinary Bladder	IV	Female	0.4538
+Run0049_ED-26-191C-DS	control	control	Female	0.4481
+Run0115_ED-27-292C-RKD	control	control	Female	0.441
+Run0054_ED-27-303C-LKB	control	control	Male	0.4239
+Run0178_ED-14-0198-KJM	Pancreas	II	Female	0.4174
+Run0105_ED-25-0207-MH	Urinary Bladder	I	Male	0.4146
+Run0104_ED-35-046C-LAS	control	control	Female	0.4026
+Run0177_ED-17-0297-ARJ	Pancreas	II	Male	0.3931
+Run0112_ED-27-405C-RCS	control	control	Male	0.3843
+Run0138_ED-05-0287-BZY	Urinary Bladder	III	Male	0.3811
+Run0138_ED-28-0012-AES	Urinary Bladder	II	Male	0.3767
+Run0103_ED-35-061C-VNN	control	control	Male	0.3655
+Run0054_ED-35-012C-KAL	control	control	Female	0.3649
+Run0185_ED-35-042C-PRA	control	control	Female	0.3606
+Run0103_ED-35-033C-KVN	control	control	Male	0.3591
+Run0057_ED-27-634C-ADK	control	control	Male	0.35
+Run0049_ED-01-0057-SSA	Breast	Benign	Female	0.3445
+Run0177_ED-05-0294-KPS	Stomach	II	Female	0.3325
+Run0151_ED-28-0037-AMJ	Uterus	Benign	Female	0.3268
+Run0151_ED-27-627C-HZK	control	control	Male	0.3204
+Run0104_ED-35-054C-VGR	control	control	Male	0.3163
+Run0105_ED-35-034C-RAD	control	control	Female	0.3135
+Run0112_ED-27-069C-LSK	control	control	Female	0.3105
+Run0057_ED-27-567C-GGH	control	control	Female	0.3044
+Run0054_ED-27-173C-SSP	control	control	Male	0.3012
+Run0138_ED-05-0339-VDR	Kidney	III	Male	0.2994
+Run0057_ED-27-649C-PKC	control	control	Male	0.2977
+Run0178_ED-44-0103-L	Pancreas	I	Female	0.2959
+Run0115_ED-27-343C-SKJ	control	control	Male	0.279
+Run0151_ED-26-132C-RL	control	control	Male	0.2758
+Run0177_ED-42-0084-BRK	Stomach	I	Male	0.2721
+Run0109_ED-27-332C-NSD	control	control	Female	0.2646
+Run0057_ED-27-243C-GAO	control	control	Male	0.2637
+Run0172_ED-06-0024-PV	Breast	II	Female	0.2529
+Run0104_ED-35-018C-ULP	control	control	Male	0.2527
+Run0049_ED-28-0109-GLY	Colorectal	Benign	Male	0.2512
+Run0185_ED-35-075C-RAJ	control	control	Female	0.2438
+Run0112_ED-35-074C-JYM	control	control	Female	0.2426
+Run0057_ED-27-647C-HSS	control	control	Male	0.2418
+Run0054_ED-28-0374-PBW	Pancreas	I	Male	0.2405
+Run0117_ED-27-347C-SLG	control	control	Male	0.2319
+Run0111_ED-35-041C-LAB	control	control	Female	0.2303
+Run0172_ED-01-0016-SGB	Breast	II	Female	0.2208
+Run0117_ED-26-292C-RD	control	control	Male	0.208
+Run0054_ED-35-005C-PAA	control	control	Female	0.2071
+Run0057_ED-27-230C-AKB	control	control	Male	0.2021
+Run0057_ED-27-639C-SMK	control	control	Male	0.2002
+Run0151_ED-27-241C-SKL	control	control	Male	0.1985
+Run0109_ED-26-223C-NP	control	control	Female	0.1964
+Run0138_ED-06-0082-RSE	Urinary Bladder	III	Male	0.1907
+Run0115_ED-27-341C-SMH	control	control	Male	0.1829
+Run0109_ED-27-334C-JCD	control	control	Female	0.1808
+Run0112_ED-27-403C-DSD	control	control	Male	0.1727
+Run0054_ED-35-013C-VEN	control	control	Female	0.1715
+Run0105_ED-08-0063-SS	Urinary Bladder	II	Female	0.1615
+Run0117_ED-27-346C-SPH	control	control	Female	0.16
+Run0109_ED-27-320C-SBM	control	control	Female	0.1592
+Run0049_ED-28-0432-PSW	Colorectal	Benign	Male	0.1539
+Run0183_ED-17-0264-MBP	Kidney	II	Male	0.1395
+Run0112_ED-27-397C-SSL	control	control	Male	0.1393
+Run0117_ED-26-286C-KC	control	control	Male	0.1371
+Run0109_ED-27-336C-CNY	control	control	Female	0.1366
+Run0151_ED-27-261C-NNB	control	control	Male	0.1185
+Run0172_ED-01-0055-SKW	Breast	II	Female	0.1111
+Run0057_ED-27-641C-SDW	control	control	Male	0.0968
+Run0112_ED-35-040C-SAB	control	control	Female	0.0913
+Run0117_ED-26-122C-IL	control	control	Male	0.0912
+Run0112_ED-35-072C-LAK	control	control	Female	0.075
+Run0112_ED-35-032C-MAN	control	control	Female	0.069
+Run0151_ED-27-244C-MRC	control	control	Male	0.0689
+Run0105_ED-17-0251-KSS	Urinary Bladder	IV	Male	0.0665
+Run0151_ED-27-642C-AMJ	control	control	Male	0.0659
+Run0112_ED-27-400C-GTR	control	control	Male	0.0652
+Run0115_ED-26-115C-KN	control	control	Male	0.0601
+Run0112_ED-35-073C-CHN	control	control	Female	0.0559
+Run0185_ED-35-039C-SUN	control	control	Female	0.0554
+Run0151_ED-27-631C-NBG	control	control	Male	0.0544
+Run0151_ED-28-0394-DNN	Uterus	Benign	Female	0.0491
+Run0073_ED-28-0375-DRY	Prostate	III	Male	0.0469
+Run0117_ED-26-131C-SM	control	control	Male	0.0451
+Run0103_ED-35-014C-VEK	control	control	Male	0.0417
+Run0112_ED-27-118C-SRP	control	control	Female	0.0395
+Run0112_ED-27-399C-RGB	control	control	Male	0.0392
+Run0117_ED-26-284C-AKD	control	control	Male	0.0355
+Run0112_ED-27-394C-DPS	control	control	Male	0.0354
+Run0112_ED-27-102C-IAK	control	control	Female	0.0353
+Run0151_ED-27-389C-CGB	control	control	Male	0.0343
+Run0146_ED-42-0039-DKP	Prostate	Benign	Male	0.0318
+Run0117_ED-26-290C-JD	control	control	Male	0.0302
+Run0103_ED-35-062C-PKN	control	control	Male	0.0295
+Run0117_ED-26-289C-SS	control	control	Male	0.0293
+Run0057_ED-27-633C-BGR	control	control	Male	0.0275
+Run0117_ED-26-275C-KR	control	control	Male	0.0268
+Run0117_ED-26-280C-NS	control	control	Male	0.0234
+Run0117_ED-26-130C-AN	control	control	Male	0.0232
+Run0115_ED-27-308C-DLP	control	control	Male	0.0217
+Run0115_ED-35-001C-DA	control	control	Male	0.0205
+Run0146_ED-42-0050-ASP	Prostate	Benign	Male	0.0195
+Run0117_ED-26-123C-IM	control	control	Male	0.0194
+Run0117_ED-26-124C-TD	control	control	Male	0.0181
+Run0117_ED-27-345C-ZTH	control	control	Male	0.0181
+Run0112_ED-27-396C-SBM	control	control	Male	0.016
+Run0117_ED-26-129C-NCD	control	control	Male	0.0156
+Run0163_ED-26-160C-SM	control	control	Male	0.0138
+Run0183_ED-20-0005-JSR	Kidney	I	Male	0.0131
+Run0159_ED-27-645C-SKL	control	control	Male	0.0128
+Run0156_ED-27-630C-PMB	control	control	Male	0.0125
+Run0115_ED-27-273C-MSB	control	control	Male	0.0123
+Run0163_ED-27-392C-VRB	control	control	Male	0.012
+Run0159_ED-27-643C-JJJ	control	control	Male	0.0117
