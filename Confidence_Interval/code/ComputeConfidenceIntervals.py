@@ -344,30 +344,11 @@ for e in expts[1:]:
    cutoffs[e]=df[df[TYPE_COL]=='control']['score'].quantile(scutoff)
 print(cutoffs)
 
-'''
-#hardcode cutoffs for single tests calculated elsewhere, not needed anymore
-cutoffBreast={'Single-': 0.1226}
-cutoffCervix={'Single-': 0.0689}
-cutoffProstate={'Single-': 0.0785}
-cutoffLung={'Single-': 0.0566}
-cutoffColorectal={'Single-': 0.2079}
-cutoffHeadAndNeck={'Single-': 0.4261}
-'''
-
 results1=calculate(cutoffs,expts[1:],"CV",path,True)
 results2=calculate(cutoffs,expts[1:],"Test",path,True)
 results3=calculate(cutoffs,[expts[1]],"Rare",path,False)
 results4=calculate(cutoffs,[expts[1]],"PreRescueTest",path,True)
 results5=calculate(cutoffs,[expts[1]],"Benign",path,False)
-
-'''
-results7=calculate(cutoffBreast,[expts[0]],"BreastTest",path,False)
-results8=calculate(cutoffLung,[expts[0]],"LungTest",path,False)
-results9=calculate(cutoffColorectal,[expts[0]],"ColorectalTest",path,False)
-results10=calculate(cutoffProstate,[expts[0]],"ProstateTest",path,False)
-results11=calculate(cutoffCervix,[expts[0]],"CervixTest",path,False)
-results12=calculate(cutoffHeadAndNeck,[expts[0]],"HeadAndNeckTest",path,False)
-'''
 
 df_res1 = pd.DataFrame(results1)
 df_res2 = pd.DataFrame(results2)
@@ -375,29 +356,11 @@ df_res3 = pd.DataFrame(results3)
 df_res4 = pd.DataFrame(results4)
 df_res5 = pd.DataFrame(results5)
 
-'''
-df_res7 = pd.DataFrame(results7)
-df_res8 = pd.DataFrame(results8)
-df_res9 = pd.DataFrame(results9)
-df_res10 = pd.DataFrame(results10)
-df_res11 = pd.DataFrame(results11)
-df_res12 = pd.DataFrame(results12)
-'''
 
 df_res = pd.concat([df_res1, df_res2], axis=0)
 df_res = pd.concat([df_res, df_res3], axis=0)
 df_res = pd.concat([df_res, df_res4], axis=0)
 df_res = pd.concat([df_res, df_res5], axis=0)
-
-
-'''
-df_res = pd.concat([df_res, df_res7], axis=0)
-df_res = pd.concat([df_res, df_res8], axis=0)
-df_res = pd.concat([df_res, df_res9], axis=0)
-df_res = pd.concat([df_res, df_res10], axis=0)
-df_res = pd.concat([df_res, df_res11], axis=0)
-df_res = pd.concat([df_res, df_res12], axis=0)
-'''
 
 df_res.to_csv("../Tables/Confidence Intervals-"+scutoff_name+".tsv",sep="\t")
 with pd.option_context(
@@ -408,26 +371,3 @@ with pd.option_context(
 ): print(df_res)
 
 
-
-
-'''
-
-# ========== 4) Plot ROC + bootstrap CI-band + annotate AUC + CI ==========
-# First collect TPR arrays from bootstraps
-
-plt.figure(figsize=(6,6))
-plt.plot(fpr, tpr, label=f'ROC (AUC = {auc0:.3f})', color='blue')
-plt.fill_between(fpr, lower_tpr, upper_tpr, color='blue', alpha=0.2,
-                 label=f'{CI_PCT}% CI band')
-plt.plot([0,1], [0,1], '--', color='grey')
-#plt.text(0.6, 0.05,
-#         f'AUC = {auc0:.3f}\n{CI_PCT}% CI = [{auc_ci[0]:.3f}, {auc_ci[1]:.3f}]',
-#         bbox=dict(facecolor='white', alpha=0.8))
-plt.xlabel('False Positive Rate')
-plt.ylabel('True Positive Rate (Sensitivity)')
-plt.title('ROC curve with bootstrap CI band')
-plt.legend(loc='lower right')
-plt.grid(True)
-plt.show()
-plt.savefig("my_plot.png")
-'''
