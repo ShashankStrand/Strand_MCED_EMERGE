@@ -1,5 +1,3 @@
----
-
 # Confidence Interval & ROC Evaluation Pipeline
 
 This repository contains a Python evaluation pipeline for computing classification performance metrics for cancer detection models, including:
