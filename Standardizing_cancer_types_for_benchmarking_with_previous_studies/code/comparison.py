@@ -14,6 +14,57 @@ warnings.filterwarnings(
 )
 
 
+#this will unroll each cancertype into individual samples
+#then sample with replacement and reggregate back
+def sample_with_replacement(df,seed):
+    group_cols=["test","cancer_type","stage"]
+
+    #expand from cancer type to individual sample level
+    df_expanded = df.loc[
+        df.index.repeat(df['total'])
+    ].reset_index(drop=True)
+
+    #reflect individual sample level total and positive counts
+    outcome_col="positive"
+    total_col="total"
+    outcome_binary = np.concatenate([
+        np.concatenate([
+            np.ones(int(row[outcome_col]), dtype=int),
+            np.zeros(int(row[total_col]) - int(row[outcome_col]), dtype=int)
+        ])
+        for _, row in df.iterrows()
+    ])
+    df_expanded[outcome_col] = outcome_binary
+    df_expanded[total_col] = 1
+
+    #print("\nExpanded df:")
+    #print(df_expanded)
+    #print(f"Shape: {df_expanded.shape}")
+
+    #resample
+    boot = df_expanded.sample(frac=1, replace=True, random_state=seed)
+
+    #print(boot)
+
+    #reaggregate to cancer type level
+    boot_df = (
+        boot
+        .groupby(group_cols)
+        .agg(
+            total=(total_col, 'sum'),
+            positive=(outcome_col, 'sum')
+        )
+        .reset_index()
+    )
+
+    #skip rows with 0 total, and compute proportion of positive
+    boot_df = boot_df[boot_df['total'] > 0].copy()
+    boot_df['prop'] = boot_df['positive'] / boot_df['total']
+    return(boot_df)
+    #print(boot_df)
+    
+
+    
 #generates n_boot diffs of stage wise standard sensitivity between ref_test and cur_test
 #creates a dataframe where columns are stages
 #rows are the diffs
@@ -25,7 +76,9 @@ def bootstrap_stage_diffs_multitest(
     rng = np.random.default_rng(42)
     for _ in range(n_boot):
         seed = rng.integers(0, 1_000_000_000)
-        boot = df.sample(frac=1, replace=True, random_state=seed)
+        #boot = df.sample(frac=1, replace=True, random_state=seed)
+        boot=sample_with_replacement(df,seed)
+        
         #print(boot)
         boot_model = linearmodel(boot,"total")
 
@@ -48,6 +101,7 @@ def bootstrap_stage_diffs_multitest(
 
     return pd.concat(out, axis=1).T
 
+
 #get CIs for the standardized sensitivity for each test
 def bootstrap_ci(df, n_boot=1000):
 
@@ -56,8 +110,9 @@ def bootstrap_ci(df, n_boot=1000):
     rng = np.random.default_rng(42)
     for b in range(n_boot):
         seed = rng.integers(0, 1_000_000_000)
-        boot_df = df.sample(frac=1, replace=True, random_state=seed)    
-
+        #boot_df = df.sample(frac=1, replace=True, random_state=seed)    
+        boot_df=sample_with_replacement(df,seed)
+        
         #boot_df['prop'] = (boot_df['positive'] + 0.0005) / (boot_df['total']+0.01)
         model = linearmodel(boot_df,"total")
 
@@ -155,7 +210,7 @@ cSEEK8=["Lung","Esophagus","Stomach","Colorectal","Breast","Ovary","Liver","Panc
 lists={"All14":All14,"CCGAPreSpec9":CCGAPreSpec9,"nonScreenable9":nonScreenable9,"cSEEK8":cSEEK8}
 
 
-#for each set of cancer types
+#For each set of cancer types
 for k in lists.keys():
     l= lists[k]
     xdf=df[df["cancer_type"].isin(l)]
@@ -173,13 +228,13 @@ for k in lists.keys():
         [standardized_sensitivity(result, xdf, t) for t in tests],
         ignore_index=True
     )
-
+    #print("std sens",sens_df)
 
     #bootstrap to get ci and add those columns to sens_df
     ci_df = bootstrap_ci(xdf, n_boot=1000)
     final_df = sens_df.merge(ci_df, on=["test", "stage"])
     #print(final_df)
-    final_df.to_csv("../Tables/"+k+" CIs.tsv",sep="\t")
+    final_df.to_csv("../Tables/"+k+" CIs-1.tsv",sep="\t")
 
     #now bootstrap to get n_boot differences in stagewise standardized sensitivity
     #these differences are stacked as rows, columns being the stages
@@ -207,7 +262,7 @@ for k in lists.keys():
 
     
     #print(summary)
-    summary.to_csv("../Tables/"+k+" CCGA-pvalue.tsv",sep="\t")
+    summary.to_csv("../Tables/"+k+" CCGA-pvalue-1.tsv",sep="\t")
 
     #repeat of above for CancerSEEK vs ThisStudy
     boot_diffs = bootstrap_stage_diffs_multitest(
@@ -228,4 +283,4 @@ for k in lists.keys():
     )
 
     #print(summary)
-    summary.to_csv("../Tables/"+k+" CancerSEEK-pvalue.tsv",sep="\t")
+    summary.to_csv("../Tables/"+k+" CancerSEEK-pvalue-1.tsv",sep="\t")

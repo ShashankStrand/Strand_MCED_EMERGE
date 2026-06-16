@@ -5,14 +5,11 @@ This script performs confounder analysis and odds ratio estimation for cancer de
 It supports:
 
 * Unadjusted odds ratio (OR) estimation
-* Covariate-adjusted OR estimation
+* Multivariable-adjusted OR estimation
 * Weighted OR using stabilized inverse probability weights
-* Propensity score modeling
 * Standardized Mean Difference (SMD) balance checks
-* Mann–Whitney U tests for subgroup comparisons
-* AUC computation for score predictors
 
-The pipeline is designed for cohort-level benchmarking and confounder sensitivity analysis used in manuscript tables.
+The pipeline is designed for confounder sensitivity analysis.
 
 ---
 
@@ -28,7 +25,7 @@ For each model score column (split):
 * p-value
 * AUC
 
-2. Covariate-adjusted logistic regression
+2. Multivariable-adjusted logistic regression
 
 * Outcome ~ Score + covariates
 * Adjusted OR
@@ -235,29 +232,5 @@ python confounder_or_ipw.py
 Ensure path exists:
 
 ../InputFiles/Cohort1.tsv
-
----
-
-# Notes and Assumptions
-
-* Outcome is defined as Cancer_type != control
-* Binary covariates are derived internally
-* No weight capping is applied (can be enabled if needed)
-* Parametric CI is used for OR (beta ± 1.96*SE)
-* IPW is computed separately for each exposure covariate
-* Balance is evaluated using SMD target near 0
-
----
-
-# Customization Points
-
-You may modify:
-
-* Covariate list
-* Binary cut rules
-* Weight capping percentile
-* CI method
-* Score columns
-* Output file names
 
 ---
