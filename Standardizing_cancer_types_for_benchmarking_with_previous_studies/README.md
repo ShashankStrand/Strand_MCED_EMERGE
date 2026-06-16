@@ -25,14 +25,14 @@ prop ~ test * stage + cancer_type
 Where:
 
 prop = positive / total
-test = assay name
+test = Study name
 stage = clinical stage (I–IV)
 cancer_type = cancer category
 
 Weights:
 
 * freq_weights = total sample count per row
-* This ensures modeling detection rate using aggregated counts
+* This ensures modeling detection rate using aggregated counts as opposed to individual samples
 
 This model estimates detection probability while adjusting for:
 
@@ -212,16 +212,6 @@ Prevents zero or one proportions causing GLM convergence issues.
 
 ---
 
-# Stage Handling
-
-Stages are ordered categorical:
-
-I, II, III, IV
-
-This ensures correct model encoding and ordered output.
-
----
-
 # Outputs Written
 
 For each cancer subset (k):
@@ -287,16 +277,5 @@ Ensure directory exists:
 
 ../InputFiles/Comparison-Klein.tsv
 ../Tables/
-
----
-
-# Methodological Notes
-
-* Uses binomial GLM with frequency weights
-* Standardization removes cancer-type composition bias
-* Bootstrap resampling is row-level
-* Sensitivity aggregation is weighted by total samples
-* Confidence intervals are percentile bootstrap
-* P-values are empirical bootstrap probabilities
 
 ---
